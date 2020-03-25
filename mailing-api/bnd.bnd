@@ -1,0 +1,10 @@
+Bundle-Name: mailing-api
+Bundle-SymbolicName: com.ted.mailing.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.ted.mailing.exception,\
+	com.ted.mailing.model,\
+	com.ted.mailing.service,\
+	com.ted.mailing.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../mailing-service/service.xml

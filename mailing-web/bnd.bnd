@@ -1,0 +1,4 @@
+Bundle-Name: mailing-web
+Bundle-SymbolicName: mailing.web
+Bundle-Version: 1.0.0
+Export-Package: mailing.web.constants

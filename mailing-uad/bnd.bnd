@@ -1,0 +1,4 @@
+Bundle-Name: Liferay Mail UAD
+Bundle-SymbolicName: com.ted.mailing.uad
+Bundle-Version: 1.0.0
+-dsannotations-options: inherit

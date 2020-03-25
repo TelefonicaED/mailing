@@ -1,0 +1,9 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+  	compileOnly group: "com.liferay", name: "com.liferay.user.associated.data.api"
+  	compileOnly group: "com.liferay", name: "com.liferay.petra.string"
+  	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly project(":modules:mailing:mailing-api")
+}
+
+group = "com.ted.mailing"
